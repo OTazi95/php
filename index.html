@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="2Tableaux associatifs et traitement de formulaires 2.php" method="post">
+        <label>Le nom à rechercher: </label>
+        <input type="text" placeholder="Veuillez saisir le nom à rechercher" name="name2">
+        <button name="recherche">Rechercher</button>
+    </form><br><hr>
+
+
+    <form action="2Tableaux associatifs et traitement de formulaires 2.php" method="post">
+        <label>Email: </label>
+        <input type="email" placeholder="Veuillez saisir votre adresse email" name="mail"><br>
+        <label>Mot de Passe: </label>
+        <input type="password" placeholder="Veuillez saisir votre mot de passe" name="passwd"><br>
+        <button name="conex">Connexion</button>
+    </form><br><hr>
+
+    <form action="2Tableaux associatifs et traitement de formulaires 2.php" method="post">
+        <label>Nom du Produit: </label>
+        <select name="prdname[]">
+            <option>Castrol</option>
+           <option>Valéo</option> 
+           <option>Bosch</option>
+        </select>
+        <label>Quantité</label>
+        <input type="number" placeholder="Choisir la quantité du produit" name="prdqt">
+        <button name="valid">Valider</button>
+    </form><br><hr>
+
+    <form action="2Tableaux associatifs et traitement de formulaires 2.php" method="post">
+    <label>Nom: </label>
+    <input type="text" name="name4" placeholder="Veuillez saisir votre nom"><br><br>
+    <label>Votre commentaire: </label><br>
+    <textarea name="comment" ></textarea><br>
+    <button name="com">Envoyer</button>
+</form><br><hr>
+
+
+<form action="2Tableaux associatifs et traitement de formulaires 2.php" method="post">
+    <label>Un fichier CSV :</label><br>
+    <input type="file" name="fichier" accept=".csv"><br><br>
+    <button name="sub">Envoyer</button>
+</form><br><hr>
+
+
+<form action="2Tableaux associatifs et traitement de formulaires 2.php" method="post">
+    <h3>Saisir les produits :</h3>
+    <fieldset>
+    <input type="checkbox" name="products[]" value="Castrol"><label>Castrol</label>
+    <input type="checkbox" name="products[]" value="Valéo"><label>Valéo</label><br>
+    <input type="checkbox" name="products[]" value="Bosch"><label>Bosch</label>
+    <input type="checkbox" name="products[]" value="Delphi"><label>Delphi</label><br>
+    <input type="checkbox" name="products[]" value="Simens"><label>Siemens</label>
+    <input type="checkbox" name="products[]" value="Lg"><label>Lg</label><br><br>
+    </fieldset>
+    <button name="p">Envoyer</button>
+</form><br><hr>
+
+<form action="2Tableaux associatifs et traitement de formulaires 2.php" method="post">
+    <label>Saisir le nom a ajouter :</label>
+    <input type="text" name="n">
+    <button name="ajouter">Ajouter</button>
+<br><br>
+    <label>Saisir le nom a modifier :</label>
+    <input type="text" name="nouveau_nom">
+    <button name="modifier">Modifier</button>
+<br><br>
+    <label>Saisir le nom a supprimer :</label>
+    <input type="text" name="name10">
+    <button name="supprimer">Supprimer</button>
+  </fieldset>
+   </form>
+</body>
+</html>
+    
